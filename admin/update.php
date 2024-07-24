@@ -145,7 +145,7 @@ if(isset($_POST['submit'])){
             <p>Tu nombre </p>
             <input type="text" name="name" placeholder="<?= $fetch_profile['name']; ?>" maxlength="50"  class="box">
             <p>Tu Apellido Paterno <span>*</span></p>
-            <input type="text" name="ape_pat" placeholder="<?= $fetch_profile['ape_pat']; ?>" maxlength="50" required class="box">   
+            <input type="text" name="ape_pat" placeholder="<?= $fetch_profile['ape_pat']; ?>" maxlength="50" class="box">   
             <p>Tu profesion </p>
             <select name="profession" class="box">
                <option value="" selected><?= $fetch_profile['profession']; ?></option>
@@ -160,7 +160,7 @@ if(isset($_POST['submit'])){
          </div>
          <div class="col">
             <p>Tu Apellido Materno <span>*</span></p>
-            <input type="text" name="ape_mat" placeholder="<?= $fetch_profile['ape_mat']; ?>" maxlength="50" required class="box">
+            <input type="text" name="ape_mat" placeholder="<?= $fetch_profile['ape_mat']; ?>" maxlength="50" class="box">
             <p>Vieja Contrasena :</p>
             <input type="password" name="old_pass" placeholder="Ingrese su vieja contrasena" maxlength="20"  class="box">
             <p>Nueva contrasena :</p>

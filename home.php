@@ -78,26 +78,24 @@ $total_bookmarked = $select_bookmark->rowCount();
       <div class="box">
          <h3 class="title">Top categorias</h3>
          <div class="flex">
-            <a href="search_course.php?"><i class="fa-solid fa-font"></i><span>Letras</span></a>
-            <a href="search_course.php?"><i class="fa-solid fa-1"></i><span>Numeros</span></a>
-            <a href="#"><i class="fa-solid fa-hippo"></i><span>Animales</span></a>
-            <a href="#"><i class="fas fa-pen"></i><span>Dibujo</span></a>
-            <a href="#"><i class="fa-solid fa-palette"></i><span>Pintura</span></a>
-            <a href="#"><i class="fas fa-music"></i><span>Musica</span></a>
-            <a href="#"><i class="fas fa-camera"></i><span>Foto</span></a>
-            <a href="#"><i class="fa-solid fa-gamepad"></i><span>Juegos</span></a>
-            <a href="#"><i class="fas fa-vial"></i><span>Ciencia</span></a>
+            <a href="playlist.php?get_id=XEpN3Yca7s5TCMXYEofq"><i class="fa-solid fa-font"></i><span>Letras</span></a>
+            <a href="playlist.php?get_id=pH04f83ao8e1NG9KEfz0"><i class="fa-solid fa-1"></i><span>Numeros</span></a>
+            <a href="playlist.php?get_id=OvDzKJP0QKnydVJ1surl"><i class="fa-solid fa-hippo"></i><span>Animales</span></a>
+            <a href="playlist.php?get_id=vlcV6Ks8pcz9clDDxR1t"><i class="fa-solid fa-face-laugh-beam"></i><span>Emociones</span></a>
+            <a href="playlist.php?get_id=kDl8fhGFy3KLmQjVHZG8"><i class="fa-solid fa-palette"></i><span>Colores</span></a>
+            <a href="playlist.php?get_id=AIztxp3xdsESr5pD39R5"><i class="fa-solid fa-gamepad"></i><span>Juegos</span></a>
+            <a href="playlist.php?get_id=LV04SdIpuGeozNe4kack"><i class="fas fa-vial"></i><span>Ciencia</span></a>
          </div>
       </div>
 
       <div class="box">
          <h3 class="title">Temas Populares</h3>
          <div class="flex">
-            <a href="#"><i class="fa-solid fa-calculator"></i><span>Matematica</span></a>
-            <a href="#"><i class="fa-solid fa-shapes"></i><span>Figuras</span></a>
-            <a href="#"><i class="fa-solid fa-earth-americas"></i><span>Geografia</span></a>
-            <a href="#"><i class="fa-solid fa-person-snowboarding"></i><span>Deporte</span></a>
-            <a href="#"><i class="fa-solid fa-people-roof"></i><span>Familia</span></a>
+            <a href="playlist.php?get_id=TjVsDBcUUj27xIpg0tFe"><i class="fa-solid fa-calculator"></i><span>Matematica</span></a>
+            <a href="playlist.php?get_id=3dX8xOadZW1HtmXW440S"><i class="fa-solid fa-shapes"></i><span>Figuras</span></a>
+            <a href="playlist.php?get_id=9c8MnDZpL4P3iqf3Htc6"><i class="fa-solid fa-earth-americas"></i><span>Sistema Solar</span></a>
+            <a href="playlist.php?get_id=wLtpgh5lsFffWk3qvULB"><i class="fa-solid fa-person-snowboarding"></i><span>Deporte</span></a>
+            <a href="#"><i class="fa-solid fa-landmark"></i><span>Historia</span></a>
          </div>
       </div>
 
