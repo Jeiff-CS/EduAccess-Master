@@ -42,7 +42,7 @@ if(isset($_COOKIE['user_id'])){
       <div class="content">
          <h3>Porque Eleginos?</h3>
          <p>Porque somos wenos, a la fifi p.</p>
-         <a href="courses.html" class="inline-btn">Nuestros Cursos</a>
+         <a href="courses.php" class="inline-btn">Nuestros Cursos</a>
       </div>
 
    </div>

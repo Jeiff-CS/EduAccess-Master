@@ -102,6 +102,7 @@ if(isset($message)){
       <a href="courses.php"><i class="fas fa-graduation-cap"></i><span>Cursos</span></a>
       <a href="teachers.php"><i class="fas fa-chalkboard-user"></i><span>Profesores</span></a>
       <a href="contact.php"><i class="fas fa-headset"></i><span>Conctactanos</span></a>
+      <a href="user-manual.php"><i class="fa-solid fa-address-book"></i><span>Manula de Usuario</span></a>
    </nav>
 
 </div>

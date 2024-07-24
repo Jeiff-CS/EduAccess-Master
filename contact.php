@@ -27,7 +27,7 @@ if(isset($_POST['submit'])){
    }else{
       $insert_message = $conn->prepare("INSERT INTO `contact`(name, email, number, message) VALUES(?,?,?,?)");
       $insert_message->execute([$name, $email, $number, $msg]);
-      $message[] = 'message sent successfully!';
+      $message[] = 'Mensaje enviado!';
    }
 
 }
@@ -69,7 +69,7 @@ if(isset($_POST['submit'])){
          <input type="email" placeholder="enter your email" required maxlength="100" name="email" class="box">
          <input type="number" min="0" max="9999999999" placeholder="enter your number" required maxlength="10" name="number" class="box">
          <textarea name="msg" class="box" placeholder="enter your message" required cols="30" rows="10" maxlength="1000"></textarea>
-         <input type="submit" value="send message" class="inline-btn" name="submit">
+         <input type="submit" value="enviar mensaje" class="inline-btn" name="submit">
       </form>
 
    </div>

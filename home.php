@@ -41,7 +41,7 @@ $total_bookmarked = $select_bookmark->rowCount();
 
 <?php include 'components/user_header.php'; ?>
 
-<!-- seleccion rapida section starts  -->
+<!-- seleccion rapida section inicio  -->
 
 <section class="quick-select">
 
@@ -111,9 +111,9 @@ $total_bookmarked = $select_bookmark->rowCount();
 
 </section>
 
-<!-- quick select section ends -->
+<!-- quick select section fin -->
 
-<!-- courses section starts  -->
+<!-- courses section inicio  -->
 
 <section class="courses">
 
@@ -159,7 +159,7 @@ $total_bookmarked = $select_bookmark->rowCount();
 
 </section>
 
-<!-- courses section ends -->
+<!-- courses section fin -->
 
 
 
@@ -172,9 +172,9 @@ $total_bookmarked = $select_bookmark->rowCount();
 
 
 
-<!-- footer section starts  -->
+<!-- footer section inicio  -->
 <?php include 'components/footer.php'; ?>
-<!-- footer section ends -->
+<!-- footer section fin -->
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
