@@ -47,7 +47,7 @@ if(isset($_POST['tutor_fetch'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>tutor's profile</title>
+   <title>Perfil de Tutol</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -64,7 +64,7 @@ if(isset($_POST['tutor_fetch'])){
 
 <section class="tutor-profile">
 
-   <h1 class="heading">profile details</h1>
+   <h1 class="heading">Detalle del Perfil</h1>
 
    <div class="details">
       <div class="tutor">
@@ -73,10 +73,10 @@ if(isset($_POST['tutor_fetch'])){
          <span><?= $fetch_tutor['profession']; ?></span>
       </div>
       <div class="flex">
-         <p>total playlists : <span><?= $total_playlists; ?></span></p>
-         <p>total videos : <span><?= $total_contents; ?></span></p>
-         <p>total likes : <span><?= $total_likes; ?></span></p>
-         <p>total comments : <span><?= $total_comments; ?></span></p>
+         <p>total de playlists : <span><?= $total_playlists; ?></span></p>
+         <p>total de videos : <span><?= $total_contents; ?></span></p>
+         <p>total de likes : <span><?= $total_likes; ?></span></p>
+         <p>total de comentarios : <span><?= $total_comments; ?></span></p>
       </div>
    </div>
 

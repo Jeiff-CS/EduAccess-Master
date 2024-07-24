@@ -240,15 +240,15 @@ if(isset($_POST['update_now'])){
 
 <section class="comments">
 
-   <h1 class="heading">add a comment</h1>
+   <h1 class="heading">Agrega tu comentario</h1>
 
    <form action="" method="post" class="add-comment">
       <input type="hidden" name="content_id" value="<?= $get_id; ?>">
-      <textarea name="comment_box" required placeholder="write your comment..." maxlength="1000" cols="30" rows="10"></textarea>
-      <input type="submit" value="add comment" name="add_comment" class="inline-btn">
+      <textarea name="comment_box" required placeholder="comentanos..." maxlength="1000" cols="30" rows="10"></textarea>
+      <input type="submit" value="agregar comentario" name="add_comment" class="inline-btn">
    </form>
 
-   <h1 class="heading">user comments</h1>
+   <h1 class="heading">comentarios de estudiantes</h1>
 
    
    <div class="show-comments">
@@ -285,7 +285,7 @@ if(isset($_POST['update_now'])){
       <?php
        }
       }else{
-         echo '<p class="empty">no comments added yet!</p>';
+         echo '<p class="empty">no hay comentarios agregados!</p>';
       }
       ?>
       </div>

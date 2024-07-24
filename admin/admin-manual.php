@@ -51,65 +51,120 @@ $total_comments = $select_comments->rowCount();
    <div class="box-container">
 
       <div class="box">
+         <h3 class="title">Registro</h3>
+         <img src="../images/registro-admin.png" alt="Panel Izquierdo" class="section-image " >
+         <p>LLene todas las credenciales solicitadas y luego presione en <span>Registrarse</span> para crear su cuenta</p>
+      </div>
+
+      <div>.</div>
+
+      <div class="box">
+         <h3 class="title">Login</h3>
+         <img src="../images/login-admin.png" alt="Panel Izquierdo" class="section-image" >
+         <p>Con su Cuenta ya creada puede iniciar sesion con su <span>Correo</span> y <span>Contrasena</span></p>
+      </div>
+
+
+      <div class="box">
          <h3 class="title">Menu de Navegacion</h3>
          <img src="../images/menu-docente.png" alt="Panel Izquierdo" class="section-image panel-izquierdo-image" >
-         <p><span> View Profile:</span> Botón para ir a tu perfil de estudiante y revisar o modificar algunos parámetros.</p>
+         <p><span> Ver Perfil:</span> Botón para ir a tu perfil de docente y revisar o modificar algunos parámetros.</p>
          <p><span> Home: </span>La página por defecto con algunos accesos rápidos.</p>
-         <p><span>Sobre nosotros:</span> Sección con algunas reseñas y características resaltantes de EduAccess.</p>
-         <p><span>Cursos: </span>Vista completa de todos los cursos y materias disponibles hasta la fecha.</p>
-         <p><span>Profesores:</span> Los docentes que subieron el material educativo y se encuentran actualmente activos.</p>
-         <p><span>Contacto:</span> Por si existe algún inconveniente o duda para resolver.</p>
+         <p><span>Playlist:</span> Son los cursos que el docente crea para que los alumnos los vean.</p>
+         <p><span>Contenido: </span>Son lo videos dentro de las Playlist.</p>
+         <p><span>Comentarios:</span> Son los Comentarios que los alumnos dejan como resena.</p>
+         <p><span>Cerrar Sesion:</span>Boton de cierre de sesion de cuenta.</p>
       </div>
-<b>.
-</b>
+
+      <b>.</b>
+
       <div class="box">
-            <h3 class="title">Sección “Home”</h3>
-            <img src="../images/cursos.png" alt="Sección Home" class="section-image">
-            <p>Aquí encontrarás algunos accesos rápidos como la cantidad total de likes, comentarios y listas de cursos, cada uno con su respectivo botón para dirigirte a esas secciones. También tienes a tu disposición las categorías mejor valoradas, así como los temas de mayor demanda y un apartado dedicado a ofrecer tus conocimientos mediante la opción de convertirte en tutor. En la parte de abajo tendrás algunos cursos populares o los que se añadieron recientemente.</p>
+         <h3 class="title">Detalle de Perfil</h3>
+         <img src="../images/ver-perfil-admin.png" alt="Sección Home" class="section-image">
+         <p>Podras el detalle de tu perfil, playlits, videos, likes, comentarios y poder actualizar tus credenciales con el boton de Actualizar Perfil.</p>
       </div>
-      <b>.
-      </b>
+
+      <b>.</b>
+
       <div class="box">
-            <h3 class="title">Sección “Sobre nosotros”</h3>
-            <img src="../images/sobrenosotros.png" alt="Sección Sobre Nosotros" class="section-image">
-            <p>Lo primero que verás en esta sección es una breve descripción del propósito de EduAcess, acompañado de un botón para ir directamente a la siguiente sección de la página y el siguiente ítem en esta documentación: los cursos. De igual modo, en la parte inferior puedes revisar algunas de las bondades de la página, así como reseñas de diferentes usuarios que quedaron satisfechos con el servicio o comentarios con aspectos en los que podemos mejorar. ¡Cualquier opinión constructiva será recibida con los brazos abiertos!</p>
+         <h3 class="title">Actualizar Datos</h3>
+         <img src="../images/actualizar-admin.png" alt="Sección Home" class="section-image">
+         <p>Podras ver o cambiar tus credenciales de la cuenta si lo vez necesario. Podras cambiar contrasena, correo o foto de perfil con el boton de actualizar.</p>
       </div>
-      <b>.
-      </b>
+
+      <b>.</b>
+
       <div class="box">
-            <h3 class="title">Sección “Cursos”</h3>
-            <img src="../images/cursos.png" alt="Sección Cursos" class="section-image">
-            <p>En esta sección encontrarás todos los cursos disponibles en EduAccess, contando con gran variedad de temas con materiales entretenidos para tus niños.</p>
+         <h3 class="title">Barra de Navegacion</h3>
+         <img src="../images/nav-bar.png" alt="Sección Home" class="section-image">
+         <p><span> Boton Inicio:</span> Te redirigira a la pagina principal.</p>
+         <p><span> Barra de Navegacion: </span>Podras buscar algun curso creado.</p>
+         <p><span>Barra de menu desplegable:</span> Podras hacer que la barra lateral aparezca o se oculte.</p>
+         <p><span>Perfil: </span>Veras opciones de inicio y cierre de sesion.</p>
+         <p><span>Modo Oscuro:</span>Podras cambiar la pagina entre modo oscuro y claro para descansar la vista.</p>
       </div>
-      <b>.
-      </b>
+
+      <b>.</b>
+
       <div class="box">
-            <h3 class="title">Sección “Profesores”</h3>
-            <img src="../images/profesores.png" alt="Sección Profesores" class="section-image">
-            <p>Aquí tendrás a tu disposición varios elementos que corresponden a los diferentes profesores que subieron su material a EduAccess y se encuentra público en la sección anterior (“Cursos”). Por cada profesor encontrarás un botón llamado Ver perfil que sirve para dirigirte a una sección dedicada a revisar la información del profesor en cuestión.</p>
+         <h3 class="title">Dashboard</h3>
+         <img src="../images/dashboard.png" alt="Sección Home" class="section-image">
+         <p>Podras ver un dashboard de el contenido como docente, Podras ver tu perfil, la cantidad de videos subidos, total de cursos creados, total de likes, total de comentarios.</p>
       </div>
-      <b>.
-      </b>
+
+      <b>.</b>
+
       <div class="box">
-         <h3 class="title">Sección “Contacto”</h3>
-         <img src="../images/contacto.png" alt="Sección Contacto" class="section-image">
-         <p>Tendrás a tus disposición un formulario con diferentes campos para llenar con la información que se requiere (Nombre, correo que usaste para iniciar sesión, número de celular y el mensaje de tu inquietud o duda por resolver). Una vez hayas llenado todos los campos, dale al botón “Enviar mensaje” para enviar tu inquietud y contactar con un profesional.</p>
-      </div>   
-      <b>.
-      </b>
-      <div class="box">
-         <h3 class="title">Sección “Ver perfil”</h3>
-         <img src="../images/verperfil.png" alt="Sección Ver Perfil" class="section-image">
-         <p>En la sección para ver tu perfil, encontrarás una opción principal como lo es “actualizar perfil”, donde podrás modificar algunos parámetros (nombre, correo, contraseña, entre otras). Así mismo, en la parte inferior, tienes algunos botones para ver las listas de cursos guardados, los cursos a los que les diste «me gusta», y los comentarios que realizaste a algún curso anteriormente.</p>
+         <h3 class="title">Playlist</h3>
+         <img src="../images/playlist.png" alt="Sección Home" class="section-image">
+         <p>Podras ver la cantidad de cursos subidos a la pagina y su estado, para poder actualizar, eliminar o ver el contenido; siempre y cuento tenga cursos subidos, sino solo aparecera el boton de crear una nueva playlist.</p>
       </div>
-      <b>.
-      </b>
+
+      <b>.</b>
+
       <div class="box">
-         <h3 class="title">Utilizando el Modo Oscuro</h3>
-         <img src="../images/darkmode.png" alt="Activar Modo Oscuro" class="section-image">
-         <p>EduAccess te ofrece una manera mucho más cómoda de visualizar tus cursos y seguir aprendiendo, de paso que descansas tu visión en el proceso. Para activar el modo oscuro, dirígete a la parte superior y dale clic al botón resaltado con un círculo como se visualiza en la imagen; notarás que toda la página cambiará inmediatamente a un estilo mucho más acogedor y suave a la vista. ¡Perfecto si estarás varias horas aprendiendo cosas nuevas!</p>
-         <p>Para regresar al modo claro, sólo dale un clic de vuelta como hiciste antes y verás como todo volverá a la normalidad.</p>
+         <h3 class="title">Crear Playlist</h3>
+         <img src="../images/crear-curso.png" alt="Sección Home" class="section-image">
+         <p>Con el boton de <span>Agregar Playlist</span> puedes crear nuevos cursos.</p>
+         <p><span> Estado:</span> Podras seleccionar el estado del curso, ACTIVO "visible" o INACTIVO "invisible" los alumno no podran acceder al curso.</p>
+         <p><span> Nombre: </span>Nombre del Curso.</p>
+         <p><span>Descripcion:</span> Breve descripcion del cruso.</p>
+         <p><span>Miniatura: </span>Una foto de portada.</p>
+         <p><span>Crear Playlist:</span>Si completas todos los campos ya puedes crear la nueva playlist.</p>
       </div>
+
+      <b>.</b>
+
+      <div class="box">
+         <h3 class="title">Contenido</h3>
+         <img src="../images/contenido.png" alt="Sección Home" class="section-image">
+         <p>Podras ver el total de videos subidos a la plataforma y su estado, para poder actualizar, eliminar o ver el contenido; siempre y cuento tenga videos subidos, sino solo aparecera el boton de crear nuevo contenido. </p>
+      </div>
+
+      <b>.</b>
+
+      <div class="box">
+         <h3 class="title">Agregar Contenido</h3>
+         <img src="../images/agregar-video.png" alt="Sección Home" class="section-image panel-izquierdo-image">
+         <p>Podras subir videos a la plataforma asignandolos a una playlist o curso. </p>
+         <p><span> Estado:</span> Podras seleccionar el estado del video, ACTIVO "visible" o INACTIVO "invisible" los alumno no podran acceder al curso.</p>
+         <p><span> Titulo: </span>Nombre del Video.</p>
+         <p><span> Descripcion: </span>Breve descripcion del video.</p>
+         <p><span> Video Playlist: </span>Podras asginar el video a un playlist, para eso la playlist ya debe de destar creada.</p>
+         <p><span>Miniatura: </span>Una foto de portada.</p>
+         <p><span>Seleccionar Video:</span>Selecciona el video a subir.</p>
+         <p><span>Subir video:</span>Si completas todos los campos ya puedes subir el nuevo video el cual sera asginado automaticamente.</p>
+      </div>
+
+      <b>.</b>
+
+      <div class="box">
+         <h3 class="title">Comentarios</h3>
+         <img src="../images/comentario.png" alt="Sección Home" class="section-image">
+         <p>Podras ver el total de comentaios que ponen los alumnos de los videos subidos, donde mostrara la fecha, el nombre del video que se comentó, un boton para ver el video, el contenido del comentario y un boton para eliminaar el comentario si lo ve necesario.</p>
+      </div>
+
+      <b>.</b>
 
 </section>
 

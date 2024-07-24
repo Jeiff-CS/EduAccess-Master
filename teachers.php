@@ -33,19 +33,19 @@ if(isset($_COOKIE['user_id'])){
 
 <section class="teachers">
 
-   <h1 class="heading">expert tutors</h1>
+   <h1 class="heading">Tutores expertos</h1>
 
    <form action="search_tutor.php" method="post" class="search-tutor">
-      <input type="text" name="search_tutor" maxlength="100" placeholder="search tutor..." required>
+      <input type="text" name="search_tutor" maxlength="100" placeholder="buscar docente..." required>
       <button type="submit" name="search_tutor_btn" class="fas fa-search"></button>
    </form>
 
    <div class="box-container">
 
       <div class="box offer">
-         <h3>become a tutor</h3>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, magnam!</p>
-         <a href="admin/register.php" class="inline-btn">get started</a>
+         <h3>Vuelvete Tutor</h3>
+         <p>Registrate y vuelvete uno de nuestros tutores ensenando y aportando tus conocimientos!</p>
+         <a href="admin/register.php" class="inline-btn">Empezar ahora</a>
       </div>
 
       <?php
@@ -86,21 +86,19 @@ if(isset($_COOKIE['user_id'])){
          <p>total comments : <span><?= $total_comments ?></span></p>
          <form action="tutor_profile.php" method="post">
             <input type="hidden" name="tutor_email" value="<?= $fetch_tutor['email']; ?>">
-            <input type="submit" value="view profile" name="tutor_fetch" class="inline-btn">
+            <input type="submit" value="Ver Perfil" name="tutor_fetch" class="inline-btn">
          </form>
       </div>
       <?php
             }
          }else{
-            echo '<p class="empty">no tutors found!</p>';
+            echo '<p class="empty">No hay tutores aun!</p>';
          }
       ?>
 
    </div>
 
 </section>
-
-<!-- teachers section ends -->
 
 
 

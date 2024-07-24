@@ -28,11 +28,11 @@ if(isset($_POST['save_list'])){
       if($select_list->rowCount() > 0){
          $remove_bookmark = $conn->prepare("DELETE FROM `bookmark` WHERE user_id = ? AND playlist_id = ?");
          $remove_bookmark->execute([$user_id, $list_id]);
-         $message[] = 'playlist removed!';
+         $message[] = 'playlist removida!';
       }else{
          $insert_bookmark = $conn->prepare("INSERT INTO `bookmark`(user_id, playlist_id) VALUES(?,?)");
          $insert_bookmark->execute([$user_id, $list_id]);
-         $message[] = 'playlist saved!';
+         $message[] = 'playlist guardada!';
       }
 
    }else{
@@ -66,7 +66,7 @@ if(isset($_POST['save_list'])){
 
 <section class="playlist">
 
-   <h1 class="heading">playlist details</h1>
+   <h1 class="heading">Contenido de Playlist</h1>
 
    <div class="row">
 
@@ -97,11 +97,11 @@ if(isset($_POST['save_list'])){
             <?php
                if($select_bookmark->rowCount() > 0){
             ?>
-            <button type="submit" name="save_list"><i class="fas fa-bookmark"></i><span>saved</span></button>
+            <button type="submit" name="save_list"><i class="fas fa-bookmark"></i><span>Guardado</span></button>
             <?php
                }else{
             ?>
-               <button type="submit" name="save_list"><i class="far fa-bookmark"></i><span>save playlist</span></button>
+               <button type="submit" name="save_list"><i class="far fa-bookmark"></i><span>guardar playlist</span></button>
             <?php
                }
             ?>
@@ -143,7 +143,7 @@ if(isset($_POST['save_list'])){
 
 <section class="videos-container">
 
-   <h1 class="heading">playlist videos</h1>
+   <h1 class="heading">Contenido</h1>
 
    <div class="box-container">
 

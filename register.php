@@ -108,7 +108,7 @@ if(isset($_POST['submit'])){
       <p>Selecciona Foto <span>*</span></p>
       <input type="file" name="image" accept="image/*" required class="box">
       <p class="link">Ya tienes una cuenta? <a href="login.php">Iniciar Sesion</a></p>
-      <input type="submit" name="submit" value="register now" class="btn">
+      <input type="submit" name="submit" value="Registrarse ahora" class="btn">
    </form>
 
 </section>

@@ -65,7 +65,7 @@ $total_bookmarked = $select_bookmark->rowCount();
                   <span>Playlists guardados</span>
                </div>
             </div>
-            <a href="#" class="inline-btn">Ver playlists</a>
+            <a href="bookmark.php" class="inline-btn">Ver playlists</a>
          </div>
 
          <div class="box">
@@ -76,7 +76,7 @@ $total_bookmarked = $select_bookmark->rowCount();
                   <span>Likes</span>
                </div>
             </div>
-            <a href="#" class="inline-btn">Ver likes</a>
+            <a href="likes.php" class="inline-btn">Ver likes</a>
          </div>
 
          <div class="box">
@@ -87,7 +87,7 @@ $total_bookmarked = $select_bookmark->rowCount();
                   <span>comnetarios a videos</span>
                </div>
             </div>
-            <a href="#" class="inline-btn">Ver comentarios</a>
+            <a href="comments.php" class="inline-btn">Ver comentarios</a>
          </div>
 
       </div>

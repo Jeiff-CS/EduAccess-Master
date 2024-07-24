@@ -65,10 +65,10 @@ if(isset($_POST['submit'])){
 
       <form action="" method="post">
          <h3>Comunicate con nosotros</h3>
-         <input type="text" placeholder="enter your name" required maxlength="100" name="name" class="box">
-         <input type="email" placeholder="enter your email" required maxlength="100" name="email" class="box">
-         <input type="number" min="0" max="9999999999" placeholder="enter your number" required maxlength="10" name="number" class="box">
-         <textarea name="msg" class="box" placeholder="enter your message" required cols="30" rows="10" maxlength="1000"></textarea>
+         <input type="text" placeholder="Ingresa tu nombre" required maxlength="100" name="name" class="box">
+         <input type="email" placeholder="Ingresa tu email" required maxlength="100" name="email" class="box">
+         <input type="number" min="0" max="9999999999" placeholder="Ingresa tu numero" required maxlength="10" name="number" class="box">
+         <textarea name="msg" class="box" placeholder="Mensaje..." required cols="30" rows="10" maxlength="1000"></textarea>
          <input type="submit" value="enviar mensaje" class="inline-btn" name="submit">
       </form>
 
@@ -85,7 +85,7 @@ if(isset($_POST['submit'])){
 
       <div class="box">
          <i class="fas fa-envelope"></i>
-         <h3>email address</h3>
+         <h3>email de contacto</h3>
          <a href="mailto:jeiferchu2003@gmail.com">jeiferchu2003@gmail.come</a>
          <a href="mailto:example@gmail.com">example@gmail.come</a>
       </div>

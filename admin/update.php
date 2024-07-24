@@ -121,12 +121,10 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Update Profile</title>
+   <title>Actualizar Perfil</title>
 
-   <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-   <!-- custom css file link  -->
    <link rel="stylesheet" href="../css/admin_style.css">
 
 </head>
@@ -134,12 +132,11 @@ if(isset($_POST['submit'])){
 
 <?php include '../components/admin_header.php'; ?>
 
-<!-- register section starts  -->
 
 <section class="form-container" style="min-height: calc(100vh - 19rem);">
 
    <form class="register" action="" method="post" enctype="multipart/form-data">
-      <h3>update profile</h3>
+      <h3>actualizar perfil</h3>
       <div class="flex">
          <div class="col">
             <p>Tu nombre </p>
@@ -171,7 +168,7 @@ if(isset($_POST['submit'])){
       </div>
       <p>Actualizar Foto :</p>
       <input type="file" name="image" accept="image/*"  class="box">
-      <input type="submit" name="submit" value="update now" class="btn">
+      <input type="submit" name="submit" value="Actualizar ahora" class="btn">
    </form>
 
 </section>

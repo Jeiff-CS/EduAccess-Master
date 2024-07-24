@@ -48,6 +48,21 @@ $total_bookmarked = $select_bookmark->rowCount();
    <div class="box-container">
 
       <div class="box">
+         <h3 class="title">Registro</h3>
+         <img src="images/registro-user.png" alt="Panel Izquierdo" class="section-image " >
+         <p>LLene todas las credenciales solicitadas y luego presione en <span>Registrarse</span> para crear su cuenta</p>
+      </div>
+      <b>.</b>
+
+      <div class="box">
+         <h3 class="title">Login</h3>
+         <img src="images/login-user.png" alt="Panel Izquierdo" class="section-image" >
+         <p>Con su cuenta ya creada puede iniciar sesion con su <span>Correo</span> y <span>Contrasena</span></p>
+      </div>
+
+      <b>.</b>
+      
+      <div class="box">
          <h3 class="title">Menu de Navegacion</h3>
          <img src="images/panelizquierdo.png" alt="Panel Izquierdo" class="section-image panel-izquierdo-image" >
          <p><span> View Profile:</span> Botón para ir a tu perfil de estudiante y revisar o modificar algunos parámetros.</p>
@@ -57,50 +72,83 @@ $total_bookmarked = $select_bookmark->rowCount();
          <p><span>Profesores:</span> Los docentes que subieron el material educativo y se encuentran actualmente activos.</p>
          <p><span>Contacto:</span> Por si existe algún inconveniente o duda para resolver.</p>
       </div>
-<b>.
-</b>
+
+      <b>.</b>
+
       <div class="box">
-            <h3 class="title">Sección “Home”</h3>
-            <img src="images/home.png" alt="Sección Home" class="section-image">
+         <h3 class="title">Menu de Navegacion</h3>
+         <img src="images/perfil-user.png" alt="Panel Izquierdo" class="section-image" >
+         <p>En la ventana de ver perfil se podra visualizar la interaccion del usuario con la pagina, podra actualizar sus datos personales, ver las playlist que guardo, los likes dados y los comentarios realizados.</p>
+         <p><span>Actualizar perfil:</span> Botón para ir a tu perfil de estudiante y revisar o modificar tus datos, como correo, contrasena o foto de perfil.</p>
+         <p><span>Ver Playlist: </span>Te redireccionara a una pagina donde podras ver todas las playlist que guardaste.</p>
+         <p><span>Ver likes:</span> Te redireccionara a una pagina donde podras ver todos los videos a los que les dio un like.</p>
+         <p><span>Ver comentarios: </span>Mostrará todos los comentarios publicados los cuales podra modificarlos y eliminarlos.</p>
+      </div>
+
+      <b>.</b>
+
+      <div class="box">
+            <h3 class="title">Inicio</h3>
+            <img src="images/inicio-user.png" alt="Sección Home" class="section-image">
             <p>Aquí encontrarás algunos accesos rápidos como la cantidad total de likes, comentarios y listas de cursos, cada uno con su respectivo botón para dirigirte a esas secciones. También tienes a tu disposición las categorías mejor valoradas, así como los temas de mayor demanda y un apartado dedicado a ofrecer tus conocimientos mediante la opción de convertirte en tutor. En la parte de abajo tendrás algunos cursos populares o los que se añadieron recientemente.</p>
       </div>
       <b>.
       </b>
       <div class="box">
-            <h3 class="title">Sección “Sobre nosotros”</h3>
+            <h3 class="title">Sobre Nosotros</h3>
             <img src="images/sobrenosotros.png" alt="Sección Sobre Nosotros" class="section-image">
             <p>Lo primero que verás en esta sección es una breve descripción del propósito de EduAcess, acompañado de un botón para ir directamente a la siguiente sección de la página y el siguiente ítem en esta documentación: los cursos. De igual modo, en la parte inferior puedes revisar algunas de las bondades de la página, así como reseñas de diferentes usuarios que quedaron satisfechos con el servicio o comentarios con aspectos en los que podemos mejorar. ¡Cualquier opinión constructiva será recibida con los brazos abiertos!</p>
       </div>
-      <b>.
-      </b>
+
+      <b>.</b>
+
       <div class="box">
-            <h3 class="title">Sección “Cursos”</h3>
-            <img src="images/cursos.png" alt="Sección Cursos" class="section-image">
+            <h3 class="title">Cursos</h3>
+            <img src="images/cursos-user.png" alt="Sección Cursos" class="section-image">
             <p>En esta sección encontrarás todos los cursos disponibles en EduAccess, contando con gran variedad de temas con materiales entretenidos para tus niños.</p>
       </div>
-      <b>.
-      </b>
+
+      <b>.</b>
+
       <div class="box">
-            <h3 class="title">Sección “Profesores”</h3>
-            <img src="images/profesores.png" alt="Sección Profesores" class="section-image">
+         <h3 class="title">Ver Contenido</h3>
+         <img src="images/contenido-user.png" alt="Sección Cursos" class="section-image">
+         <p>En esta sección encontrarás todos los cursos disponibles en EduAccess, contando con gran variedad de temas con materiales entretenidos para tus niños.</p>
+         <p><span>Guardar playlist:</span>Podras guardar los cursos que uno quiera.</p>
+         <p><span>Videos: </span>Mostrara la cantidad de videos que tiene el curso.</p>
+         <p><span>Titulo:</span>Titulo del curso.</p>
+         <p><span>Fecha: </span>Fecha de publicacion del cruso.</p>
+         <p><span>Video: </span>Podras ver el video.</p>
+      </div>
+
+      <b>.</b>
+
+      <div class="box">
+         <h3 class="title">Ver Comentarios</h3>
+         <img src="images/comentario-user.png" alt="Sección Cursos" class="section-image">
+         <p>En esta seccion podras ver y publicar comentarios sobre los videos.</p>
+         <p><span>Like:</span>Podras dar like si el video te gusto y guardarlo en tu seccion de likes.</p>
+         <p><span>Comentario: </span>Puedes dejar un comentario en la caja de comentarios.</p>
+         <p>En la parte baja podras ver todos los comentarios sobre el video.</p>
+      </div>
+
+      <b>.</b>
+
+      <div class="box">
+            <h3 class="title">Profesores</h3>
+            <img src="images/tutores-user.png" alt="Sección Profesores" class="section-image">
             <p>Aquí tendrás a tu disposición varios elementos que corresponden a los diferentes profesores que subieron su material a EduAccess y se encuentra público en la sección anterior (“Cursos”). Por cada profesor encontrarás un botón llamado Ver perfil que sirve para dirigirte a una sección dedicada a revisar la información del profesor en cuestión.</p>
       </div>
       <b>.
       </b>
       <div class="box">
-         <h3 class="title">Sección “Contacto”</h3>
+         <h3 class="title">Contactanos</h3>
          <img src="images/contacto.png" alt="Sección Contacto" class="section-image">
          <p>Tendrás a tus disposición un formulario con diferentes campos para llenar con la información que se requiere (Nombre, correo que usaste para iniciar sesión, número de celular y el mensaje de tu inquietud o duda por resolver). Una vez hayas llenado todos los campos, dale al botón “Enviar mensaje” para enviar tu inquietud y contactar con un profesional.</p>
-      </div>   
-      <b>.
-      </b>
-      <div class="box">
-         <h3 class="title">Sección “Ver perfil”</h3>
-         <img src="images/verperfil.png" alt="Sección Ver Perfil" class="section-image">
-         <p>En la sección para ver tu perfil, encontrarás una opción principal como lo es “actualizar perfil”, donde podrás modificar algunos parámetros (nombre, correo, contraseña, entre otras). Así mismo, en la parte inferior, tienes algunos botones para ver las listas de cursos guardados, los cursos a los que les diste «me gusta», y los comentarios que realizaste a algún curso anteriormente.</p>
-      </div>
-      <b>.
-      </b>
+      </div>  
+
+      <b>.</b>
+
       <div class="box">
          <h3 class="title">Utilizando el Modo Oscuro</h3>
          <img src="images/darkmode.png" alt="Activar Modo Oscuro" class="section-image">
